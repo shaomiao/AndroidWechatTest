@@ -47,12 +47,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.wechat_pay:
                 PayReq request = new PayReq();
                 request.appId = ConfigUtil.Wechat_Appid;
-                request.partnerId = "1327244301";
-                request.prepayId= "wx2016092009564343e737275f0904349502";
+                request.partnerId = "1305176001";
+                request.prepayId= "wx201609201413082e4dd0949a0514279401";
                 request.packageValue = "Sign=WXPay";
-                request.nonceStr= "70vhVHnJj6ph7mf9";
-                request.timeStamp= "1474336603";
-                request.sign= "815BC8D5508FD90F7A978856B2174E21";
+                request.nonceStr= "eea571b0d5df427954b3e03508e13878";
+                request.timeStamp= "1474351988";
+                request.sign= "001324C12292C47F1CA2EA5125C7A39F";
                 api.sendReq(request);
                 break;
         }
