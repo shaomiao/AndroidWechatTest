@@ -22,7 +22,7 @@
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.VIEW"/>-->
                 <!--<category android:name="android.intent.category.DEFAULT"/>-->
-                <!--<data android:scheme="wx9fd17784b344f703" />-->
+                <!--<data android:scheme="" />-->
             <!--</intent-filter>-->
         </activity>
         <activity android:name=".wxapi.WXEntryActivity"
