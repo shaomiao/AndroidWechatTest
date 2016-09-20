@@ -54,6 +54,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
     @Override
     public void onResp(BaseResp baseResp) {
         Bundle bundle = new Bundle();
+        System.out.println(TAG+"回调");
         Toast.makeText(getApplicationContext(), "恭喜你onResp", Toast.LENGTH_LONG).show();
         switch (baseResp.errCode) {
             //用户同意：
