@@ -20,14 +20,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         api= WXAPIFactory.createWXAPI(this,ConfigUtil.Wechat_Appid,true);
         api.registerApp(ConfigUtil.Wechat_Appid);
     }
-    Handler createOrderHandler = new Handler() {
-        public void handleMessage(android.os.Message msg) {
-            if (msg.what == 0) {
-                String result = (String) msg.obj;
-                //WechatPay.pay(MainActivity.this, result);
-            }
-        };
-    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
