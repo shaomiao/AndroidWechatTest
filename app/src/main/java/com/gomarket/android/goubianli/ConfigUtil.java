@@ -5,6 +5,7 @@ package com.gomarket.android.goubianli;
  */
 public  class  ConfigUtil {
 //    public static final String Wechat_Appid="wxb4ba3c02aa476ea1";
-   
+    public static final String Wechat_Appid="";
+    public static final String Wechat_AppSecret="";
 
 }
